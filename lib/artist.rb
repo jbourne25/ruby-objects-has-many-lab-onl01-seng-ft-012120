@@ -29,7 +29,7 @@ class Artist
   end 
   
   def self.song_count
-    @@all.detect{ |song| song.artist.count }
+    @@all.count 
   end 
   
   
