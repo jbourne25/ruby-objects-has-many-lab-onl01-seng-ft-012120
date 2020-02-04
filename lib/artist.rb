@@ -22,6 +22,10 @@ class Artist
     title = title.artist 
   end 
   
+  def self.song_count
+    @songs.select{ |song| song.artist == self }
+  end 
+  
   
   
 end 
