@@ -10,7 +10,11 @@ class Post
   end 
   
   def self.all 
-    
+    @@all 
+  end 
+  
+  def author_name 
+    self.each{ |post| post.author == author }
   end 
   
   
