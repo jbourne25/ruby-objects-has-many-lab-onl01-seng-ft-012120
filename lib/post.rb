@@ -13,7 +13,7 @@ class Post
     @@all 
   end 
   
-  def author_name 
+  def author_name(author) 
     result = @@all.each{ |post| post.author == author }
     result 
   end 
