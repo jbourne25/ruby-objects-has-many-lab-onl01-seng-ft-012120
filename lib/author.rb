@@ -14,7 +14,7 @@ class Author
   end 
   
   def add_post(post)
-    post = Author.post 
+    author = Author.post 
   end 
   
   
