@@ -2,15 +2,15 @@ class Author
   
   attr_accessor :name 
   
-  
+  @@all = []
   
   def initialize(name)
     @name = name 
-    @posts = [] 
+    @@all << self  
   end
   
-  def posts 
-    @posts 
+  def self.all  
+    @@all  
   end 
   
   
