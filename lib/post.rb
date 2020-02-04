@@ -14,8 +14,9 @@ class Post
   end 
   
   def author_name 
-    self.each{ |post| post.author == author }
+    result = @@all.each{ |post| post.author == author }
   end 
+  result 
   
   
   
