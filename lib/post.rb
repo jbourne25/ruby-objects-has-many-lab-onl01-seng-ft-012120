@@ -17,7 +17,7 @@ class Post
     result = @@all.each{ |post| post.author == author }
   end 
   result 
-  
+end 
   
   
 end 
