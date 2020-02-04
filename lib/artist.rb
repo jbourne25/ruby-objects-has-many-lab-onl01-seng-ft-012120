@@ -9,7 +9,7 @@ class Artist
   end 
   
   def songs 
-    @songs.select{ |song| song.artist = self }    
+    @songs.select{ |song| song.artist == self }    
   end 
   
   def add_song(song)
