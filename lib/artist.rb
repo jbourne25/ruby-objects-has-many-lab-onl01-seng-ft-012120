@@ -23,7 +23,7 @@ class Artist
   end 
   
   def self.song_count
-    @songs.find{ |song| song.artist.count }
+    @songs.detect{ |song| song.artist.count }
   end 
   
   
