@@ -2,7 +2,6 @@ class Artist
   
   attr_accessor :name, :songs 
   
-  @@songs = 0
   
   
   
