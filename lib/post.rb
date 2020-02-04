@@ -15,9 +15,9 @@ class Post
   
   def author_name 
     result = @@all.each{ |post| post.author == author }
+    result 
   end 
-  result 
-end 
+
   
   
 end 
