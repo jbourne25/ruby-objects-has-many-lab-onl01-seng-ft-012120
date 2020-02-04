@@ -5,11 +5,11 @@ class Artist
   
   def initialize(name)
     @name = name
-    @songs = []
+    @@all = []
   end 
   
   def songs 
-    @songs.select{ |song| song.artist == self }    
+    @@all.select{ |song| song.artist == self }    
   end 
   
   def add_song(song)
